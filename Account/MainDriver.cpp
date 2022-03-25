@@ -92,7 +92,7 @@ int main()
         //downcast pointer
         SavingsAccount* ptr = dynamic_cast<SavingsAccount*>(accounts[i]);
 
-        cout<<"\n\nCurrent balance of "<< typeid(*accounts[i]).name()<<": "<<accounts[i]->getBalance();
+        cout << "\n\nCurrent balance of " << typeid(*accounts[i]).name() << ": " << accounts[i]->getBalance();
 
         //withdrawing an amount from the current account
         accounts[i]->debit(250);
