@@ -76,7 +76,7 @@ int main()
     //trying to withdraw an invalid amount from the checking account
     chAccount.debit(500000);
 
-    cout << "Current balance of the savings account after withdrawal: " << chAccount.getBalance();
+    cout << "Current balance of the checking account after withdrawal: " << chAccount.getBalance();
     cout << endl;
 
     //create vector of Account base-class pointers
